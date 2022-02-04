@@ -33,6 +33,9 @@ void binary_search(int arr[], int to_find, int low, int high)
 int main(){
 
 	int arr[] = {1,2,4,6,7,8};
+
+	//Basic Tests below. 
+	
 	binary_search(arr,6,0,5); // will print "Found at index 3"
 	binary_search(arr,21,0,5); // will print "Not Found"
 	return 0;
